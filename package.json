@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "A simple example deployed using react-codesandboxer",
   "main": "index.js",
-  "homepage": "https://hungdinh.github.io/ExampleReactRouter",
+  "homepage": "https://dinhhuyhung1997.github.io/ExampleReactRouter",
   "dependencies": {
     "react-router-dom": "^5.3.0",
     "react-scripts": "latest",
@@ -17,6 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
